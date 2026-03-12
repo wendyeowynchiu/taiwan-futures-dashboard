@@ -3,7 +3,7 @@ import { useState, useEffect, useMemo } from "react";
 // ─── 設定 ─────────────────────────────────────────────────────────
 // Vercel 部署時在環境變數設定 VITE_API_BASE = 你的 Railway 後端網址
 // 例如：https://taiwan-futures-backend.up.railway.app
-const API_BASE = import.meta.env.VITE_API_BASE || "http://localhost:8000";
+const API_BASE = "http://192.168.1.163:8001"
 
 // ─── 預設資料（後端離線時的 Fallback）──────────────────────────────
 const DEFAULT_NEWS = [
